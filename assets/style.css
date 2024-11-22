@@ -157,3 +157,7 @@ form {
 input, textarea{
     font-size: 25px;
 }
+
+button {
+    font-size: 22px;
+}
