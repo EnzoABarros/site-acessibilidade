@@ -1,0 +1,159 @@
+.imhere{
+    color: #7a7d80;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.4s;
+    font-size: 25px;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #29384f;
+    height: 8vh;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 32px;
+}
+
+h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 12vh;
+    margin-bottom: 6vh;
+}
+
+p{
+    margin: 10px;
+    font-size: 32px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 20vh;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h2 {
+    margin: 10px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 50px;
+    text-align: start;
+}
+
+ul {
+    list-style: circle;
+    font-size: 25px;
+    margin: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.bemvindo {
+    display: flex;
+}
+
+.bemvindo img{
+    width: 50%;
+    height: auto;
+}
+
+.artigos {
+    padding: 25px;
+}
+
+.artigos p{
+    text-align: left;
+    font-size: 24px;
+}
+
+.artigos a{
+    color: black;
+    margin: 10px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+.artigo1, .artigo2, .artigo3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.artigos img{
+    width: 15%;
+    height: auto;
+}
+
+.corpo-artigo p{
+    text-align: left;
+    margin: 10px;
+    margin-left: 38px;
+}
+
+.artigo-img {
+    margin-left: 26vh;
+    margin-top: 5vh;
+}
+
+.artigo-img img{
+    width: 45%;
+    height: auto;
+}
+
+.artigo-img p {
+    color: #5c5c5c;
+    font-size: 20px;
+}
+
+.artigo-img2 {
+    margin-left: 45vh;
+    margin-top: 5vh;
+}
+
+.artigo-img2 img{
+    width: 65%;
+    height: auto;
+}
+
+.artigo-img2 p {
+    color: #5c5c5c;
+    font-size: 20px;
+}
+
+form {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+input, textarea{
+    font-size: 25px;
+}
